@@ -3,16 +3,9 @@ import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-root',  //seletor
   standalone: true,
   imports: [CommonModule, RouterOutlet],
-  template: `
-    <h1>Welcome to {{title}}!</h1>
-
-    <router-outlet></router-outlet>
-  `,
-  styles: [],
+  templateUrl: 'app.component.html',
 })
-export class AppComponent {
-  title = 'frontend';
-}
+export class AppComponent { }
