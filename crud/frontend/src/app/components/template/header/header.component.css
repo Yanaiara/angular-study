@@ -1,0 +1,32 @@
+.custom-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2196F3;
+  padding: 0 16px;
+  height: 64px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 150px;
+  padding-top: 15px;
+  filter: brightness(0) invert(1) saturate(100%) hue-rotate(0deg) sepia(0%) saturate(0%) brightness(100%);
+}
+
+.app-title {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+
+.material-icons {
+  margin-right: 8px;
+}
